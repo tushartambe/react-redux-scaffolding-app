@@ -5,14 +5,14 @@ import SampleDataItem from './SampleDataItem'
 export default class SampleDataList extends React.Component {
 
 	renderList() {
-		return this.props.data.map((movie, i) => <SampleDataItem key={i} movie={movie}/>)
+		return this.props.data.map((movie, i) => <SampleDataItem key={i} movie={movie} />)
 	}
 
 	renderSamuelJackson() {
 		return (
 			<div className="col-md-12 samuel-jackson">
 				<div className="text-center">
-					<img src="https://i.imgur.com/Wo3YF30.png" alt=""/>
+					<img src="https://i.imgur.com/Wo3YF30.png" alt="" />
 				</div>
 			</div>
 		)

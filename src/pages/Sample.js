@@ -4,8 +4,8 @@ import SampleDataList from '../containers/sample-data-list'
 
 const SamplePage = () =>
 	<div className="sample-page">
-		<Jumbotron/>
-		<SampleDataList/>
+		<Jumbotron />
+		<SampleDataList />
 	</div>
 
 export default SamplePage
